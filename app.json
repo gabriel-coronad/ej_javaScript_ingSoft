@@ -22,9 +22,11 @@
       "bundler": "metro",
       "favicon": "./assets/images/favicon.png"
     },
-    
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "plugins": [
+      "expo-localization"
+    ]
   }
 }
